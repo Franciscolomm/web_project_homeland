@@ -13,7 +13,7 @@
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .intro__text{
@@ -22,7 +22,7 @@ max-height: 135px;
 font-weight: 400;
 font-size: 24px;
 line-height: 34px;
-letter-spacing: 0%;
+letter-spacing: 0;
 }
 .intro__author{
   max-width: 732px;
@@ -30,7 +30,7 @@ letter-spacing: 0%;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: right;
 }
 .intro__subtext{
@@ -39,7 +39,7 @@ letter-spacing: 0%;
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
