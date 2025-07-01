@@ -1,16 +1,3 @@
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.header__logo {
- max-width: 255px;
-max-height: 69px;
- margin: auto;
- padding-top: 34px;
-}
-
 
 .lead {
   display: flex;
@@ -58,11 +45,7 @@ max-height: 69px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
-    .header__logo {
- max-width: 188px;
- max-height: 52px;
- padding-top: 20px;
-}
+
 .lead{
   padding-top: 40px;
 }
@@ -86,12 +69,6 @@ max-height: 69px;
 }
 
 @media screen and (min-width: 545px) and (max-width: 1023px) {
-   .header__logo {
- max-width: 254px;
- max-height: 66px;
- padding-top: 30px;
-}
-
 .lead{
   padding-top: 70px;
 }
