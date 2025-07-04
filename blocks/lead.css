@@ -75,6 +75,7 @@
   .lead__heading{
     font-size:75px;
     line-height: 79px;
+    max-width: 600px;
   }
   .lead__subheading{
   font-size: 30px;
