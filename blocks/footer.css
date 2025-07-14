@@ -1,0 +1,34 @@
+.footer{
+    font-family: "Inter", Arial, sans-serif;
+    max-width: 194px;
+    max-height: 16px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    margin: auto;
+}
+
+.footer__copy{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-align: right;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+.footer{
+    padding-top: 40px;
+    max-height: 14px;
+}
+.footer__copy{
+    line-height: 14px;
+}
+}
+
+@media screen and (min-width: 545px) and (max-width: 1023px) {
+.footer{
+padding-top: 50px;
+}
+}
